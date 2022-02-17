@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:teal;
+    background:snow;
+}
+
+#app{
+    width:95%;
+    margin:0 auto;
+    height:fit-content;
+    /*background: palegoldenrod;*/
+}
+
+h1{
+    font-size:40px;
+    padding:10px;
+}
+fieldset{
+    padding: 10px;
+    border-width: 3px;
+    border-color:green;
+    margin: 10px;
+}
+
+legend{
+    font-size:25px;
+    font-weight: 600;
+    margin:5px;
+    padding: 5px;
+    color:sienna;
+}
+
+div .field input{
+    display: block;
+    width:75%;
+    height: 25px;
+    font-size: 22px;
+    padding-left:10px;
+    border-radius:10px;
+} 
+
+div .field{
+    display:inline-block;
+    padding:10px;
+    width:45%;
+    font-size:20px;
+    color:teal;
+    font-weight: 600;
+}
+
+div .field .errors{
+    font-size: 15px;
+    color:red;
+}
+
+select{
+    height: 25px;
+    font-size: 22px;
+}
+
+
+@media only screen and (max-width : 768px)  {
+    div .field{
+        display:block;
+        padding:10px;
+        width:100%;
+    }
+    div .field input{
+        display: block;
+        width:75%;
+    }
+}
+
+#submit{
+    margin: auto;
+    display: block;
+    padding: 5px;
+    justify-content: center;
+    font-size:medium;
+    font-weight: 700;
+    width:30%;
+    background: teal;
+    color:white;
+    letter-spacing: 1px;
+}
+/* ----------- Manager ---------------*/
+.manager{
+    margin:10px auto;
+}
+
+.manager h1{
+    color:white;
+    font-size: 30px;
+    background-color: brown;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.manager .applications{
+    margin: 20px auto;
+    width:90%;
+}
+.short-details{
+    color:green;
+    margin:10px auto;
+    padding:10px;
+    border:1px solid black;
+    font-size:20px;
+
+}
+.short-details span strong{
+    text-decoration: underline;
+    font-size: large;
+    color:blue;
+}
+
+.short-details span strong:hover{
+    color:red;
+    cursor: pointer;
+}
+.short-details span{
+    display: inline;
+    padding:10px;
+    color:green;
+}
+.container .decision-buttons{
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.container .decision-buttons  .accept-button{
+    color: white;
+    background-color: teal;
+    padding:5px;
+    margin:10px;
+    font-size:15px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.container .decision-buttons  .reject-button{
+    color: white;
+    background-color:brown;
+    font-size: 15px;
+    font-weight:500;
+    padding:5px;
+    margin:10px;
+    text-transform: capitalize;
+}
+.full-details{
+    margin: 10px auto;
+    padding: 10px;
+    color:green;
+    border: 2px solid black;
+}
+.full-details .container{
+    width:100%;
+    margin: 0px auto;
+    padding: 10px;
+    color:green;
+}
+
+.full-details span{
+    cursor: pointer;
+    font-stretch: extra-expanded;
+    color:teal;
+    font-size: 20px;
+}
+.full-details span:hover{
+    color:brown;
+}
+
+.full-details  .container p{
+    display: inline-block;
+    width:45%;
+    padding:10px;
+    font-size:22px ;
+    color:brown;
+    font-weight: 500;
+    padding:10px;
+}
+.full-details .container  p  span{
+    color:teal;
+    padding-right: 10px;
+    font-size:20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: auto;
+}
